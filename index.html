@@ -10,24 +10,30 @@
       margin: 2em;
       text-align: center;
     }
+
     .fullscreen-button {
       display: inline-block;
-      margin-bottom: 1em;
-      padding: 10px 16px;
+      margin-bottom: 20px;
+      padding: 10px 20px;
       font-size: 14px;
       background-color: #007bff;
       color: white;
       text-decoration: none;
       border-radius: 5px;
+      transition: background-color 0.2s ease-in-out;
     }
+
     .fullscreen-button:hover {
       background-color: #0056b3;
     }
+
     iframe {
       border: none;
+      width: 960px;
+      height: 540px;
       max-width: 100%;
     }
-  </style>  
+  </style>
 </head>
 <body>
 
@@ -49,7 +55,7 @@
 
   <!-- Embed Google Slides -->
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTR_-2nO5Eey2qjsGQBhuP63qCmCg5jhBho0treRRHk0gmgVmojShdJsSh4FeUgPQ/pubembed?start=true&loop=true&delayms=15000" 
-    frameborder="0" width="960" height="540" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+    allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
   </iframe>
 
 </body>
